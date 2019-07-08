@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+Plot a superposition of two radial plots
+
+python3 DualRadialPlot.py result.fits J1615_edit.fits 45.9835388 326.2477693  6.341708607533389 3. --CenterAndWidth1 '(1555,1555,600)' --CenterAndWidth2 '(1500,1500,600)' --label1 'MCFOST Simulation' --label2 'Alma Data'
+"""
+
 from mcfostModule import *
 
 

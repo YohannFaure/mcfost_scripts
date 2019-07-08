@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from mcfostModule import *
+"""
+A script that convolves an image with a beam, using the fft convolution from scipy
 
+example :
+python3 ConvolveBeam.py J1615_edit.fits data_867/RT.fits result.fits
+"""
+
+from mcfostModule import *
+    from scipy.signal import fftconvolve
 
 if __name__=='__main__':
     import argparse
@@ -32,7 +39,6 @@ if __name__=='__main__':
     #print(nconv)
     ##### Convolution
     beamsmall = beam[l//2-nconv:l//2+nconv,l//2-nconv:l//2+nconv]
-    from scipy.signal import fftconvolve
     ConvolvedImage=fftconvolve(Im2,beamsmall)
 
     ##### If you want a plot

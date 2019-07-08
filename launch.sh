@@ -13,4 +13,9 @@ export MCFOST_UTILS=~/mcfost_utils/
 ml Python/3.7.2
 ml matplotlib/3.0.2-Python-3.7.2
 cd ~/mcfost
+
+function python3 () {
+    python
+}
+
 python3 optimization_mcfost.py

@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+Plots the SED from mcfost data
+
+python3 plotSED.py data_th params.para --XPSED --Av 0.6
+"""
+
 from mcfostModule import *
 
 
@@ -36,8 +42,6 @@ if __name__=='__main__':
         lsed=['SEDPoints/SED_J1615_dict.npy','SEDPoints/SED_KOOISTRA_dict.npy','SEDPoints/SED_MAREL_dict.npy']#,'SEDPoints/SED_VOSA_dict.npy']
         captions=[r'Our Alma observation',r'Kooistra et al. 2016',r'Van der Marel et al. 2016']#,r'VOSA Database']
         color=['g','b','r']#,'y']
-        #wl,sed_profile,error=SEDfromVOSA(datfile)
-        #sed_profile=ergscm2aTOwm2(sed_profile,wl)
         wl,sed,err,origin=ExperimentalSED(lsed)
         for i in range(len(wl)):
             plotSED(wl[i],sed[i],err[i],label=captions[i],color=color[i])
