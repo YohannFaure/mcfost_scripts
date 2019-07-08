@@ -1,0 +1,6 @@
+*.fits
+*.tmp
+*.pyc
+data_*
+result/*
+*~
