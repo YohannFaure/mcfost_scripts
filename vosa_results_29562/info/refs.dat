@@ -1,0 +1,55 @@
+If your research benefits from the use of VOSA, we would appreciate if you could include the corresponding reference in your publication. Note also that VOSA makes use of models, VO services, etc that should be referenced too if they are relevant to your final results. Here you have a list of all the services that have been used for obtaining the results for this particular file. Please, take that into account. The refs.bibtex.bib file includes all the bibtex entries corresponding to the information below
+
+VOSA
+-----------------------------------------------------
+ * VOSA
+   - Acknowledgement : This publication makes use of VOSA, developed under the Spanish Virtual Observatory project supported from the Spanish MICINN through grant AyA2008-02156.
+   - 2008A&A...492..277B : Bayo et al 2008, A&A, 492, 277B
+
+
+Dereddening
+-----------------------------------------------------
+ * For dereddening the SEDs we make use of the extinction law by Fitzpatrick (1999) improved by Indebetouw et al (2005) in the infrared.
+   - 1999PASP..111...63F : Fitzpatrick, E.; 1999, PASP, 111, 63
+   - 2005ApJ...619..931I : Indebetouw et al, 2005, ApJ 619, 931
+
+
+VO photometry
+-----------------------------------------------------
+ * 2MASS All-Sky Point Source Catalog
+   - 2006AJ....131.1163S : Skrutskie et al, 2006, AJ, 131, 1163S
+   - 2000A&AS..143...23O : Ochsenbein et al 2000, A&AS 143, 221
+   - Acknowledgement : This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
+
+ * DENIS Catalogue
+   - 2000A&AS..143...23O : Ochsenbein et al 2000, A&AS 143, 221
+   - 2000A%26AS..141..313F : Fouque et al. 2000, A&AS 141, 313F
+   - 1999A%26A...349..236E : Epchtein et al. 1999, A&A 349, 236E
+
+ * IRAS Catalog of Point Sources, Version 2.0
+   - 1988iras....7.....H : Helou, G. & Walker, D.W.;  Infrared astronomical satellite (IRAS) catalogs and atlases. Volume 7, p.1-265
+   - 1988iras....1.....B : Beichman et al. 1988, IRAS vol I
+   - 2000A&AS..143...23O : Ochsenbein et al 2000, A&AS 143, 221
+
+ * AKARI/IRC mid-IR all-sky Survey (ISAS/JAXA, 2010)
+   - 2010A&A...514A...1I : Ishihara et al, 2010, A&A, 514, A1
+   - 2007PASJ...59S.369M : Murakami et al, 2007, PASJ 59, S369
+   - 2000A&AS..143...23O : Ochsenbein et al 2000, A&AS 143, 221
+   - 2007PASJ...59S.401O : Onaka et al, 2007, PASJ, 59, S401
+
+ * WISE
+   - Acknowledgement : This publication makes use of data products from the Wide-field Infrared Survey Explorer, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, funded by the National Aeronautics and Space Administration.
+   - 2000A&AS..143...23O : Ochsenbein et al 2000, A&AS 143, 221
+   - 2010AJ....140.1868W : Wright et al 2010, AJ 140, 1868W
+
+ * APASS 9
+   - 2002A%26A...395..347E : Evans et al. 2002, A&A 395, 347E
+   - 2000A&AS..143...23O : Ochsenbein et al 2000, A&AS 143, 221
+
+ * GAIA DR2
+
+ * Galaxy Evolution Explorer [GALEX]
+   - 2000MmSAI..71.1123B : Bianchi and GALEX team 2000, Memorie della Società Astronomia Italiana, Vol. 71, p.1123
+   - Please, check the GALEX web page : http://galex.stsci.edu
+
+
