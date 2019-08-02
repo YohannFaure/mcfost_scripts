@@ -43,31 +43,31 @@
 
 #Density structure
   1                       zone type : 1 = disk, 2 = tappered-edge disk, 3 = envelope, 4 = debris disk, 5 = wall
-  2.9427921926354714e-05    100.		      dust mass,  gas-to-dust mass ratio
-  1.6555961700307709  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
-  0.4300558770646045  0.0    5.148915902550879  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
-  1.147222960441405                   flaring exponent, unused for envelope
+  3.388088639627596e-05    100.		      dust mass,  gas-to-dust mass ratio
+  1.8489730437352474  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
+  0.4122219471059655  0.0    5.177831425183789  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
+  1.1149648464769428                   flaring exponent, unused for envelope
   -1.  0.0    	          surface density exponent (or -gamma for tappered-edge disk or volume density for envelope), usually < 0, -gamma_exp (or alpha_in & alpha_out for debris disk)
 
   1                       zone type : 1 = disk, 2 = tappered-edge disk, 3 = envelope, 4 = debris disk, 5 = wall
-  0.0008899106624579261    100.		      dust mass,  gas-to-dust mass ratio
-  1.9004288305480594  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
-  18.062992625092377  0.0    68.33000410367241  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
-  0.9834276567943838                   flaring exponent, unused for envelope
+  0.0008383649491728844    100.		      dust mass,  gas-to-dust mass ratio
+  1.8552844857883792  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
+  17.842825987536468  0.0    61.87855296392491  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
+  1.0548282646176372                   flaring exponent, unused for envelope
   -1.  0.0    	          surface density exponent (or -gamma for tappered-edge disk or volume density for envelope), usually < 0, -gamma_exp (or alpha_in & alpha_out for debris disk)
 
   1                       zone type : 1 = disk, 2 = tappered-edge disk, 3 = envelope, 4 = debris disk, 5 = wall
-  8.308697678748325e-06    100.		      dust mass,  gas-to-dust mass ratio
-  9.755735437894778  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
-  71.522977399897  0.0    110.15466447214258  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
-  1.0918369360760485                   flaring exponent, unused for envelope
+  8.294842630995428e-06    100.		      dust mass,  gas-to-dust mass ratio
+  10.1670848936723  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
+  65.53685863662643  0.0    94.48524519045544  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
+  1.1630632090013928                   flaring exponent, unused for envelope
   -1.  0.0    	          surface density exponent (or -gamma for tappered-edge disk or volume density for envelope), usually < 0, -gamma_exp (or alpha_in & alpha_out for debris disk)
 
   1                       zone type : 1 = disk, 2 = tappered-edge disk, 3 = envelope, 4 = debris disk, 5 = wall
-  7.650241333447678e-06    100.		      dust mass,  gas-to-dust mass ratio
-  21.64978844581924  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
-  134.40219668350102  0.0    158.90796849989562  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
-  0.9415414277423603                   flaring exponent, unused for envelope
+  7.818943767200702e-06    100.		      dust mass,  gas-to-dust mass ratio
+  20.563020164593027  100.0  2           scale height, reference radius (AU), unused for envelope, vertical profile exponent (only for debris disk)
+  127.21511505113911  0.0    138.6650829113678  100. Rin, edge, Rout, Rc (AU) Rc is only used for tappered-edge & debris disks (Rout set to 8*Rc if Rout==0)
+  0.8776237710044611                   flaring exponent, unused for envelope
   -1.  0.0    	          surface density exponent (or -gamma for tappered-edge disk or volume density for envelope), usually < 0, -gamma_exp (or alpha_in & alpha_out for debris disk)
 
 #Grain properties
@@ -75,25 +75,25 @@
   Mie  1 2  0.0  1.0  0.9 Grain type (Mie or DHS), N_components, mixing rule (1 = EMT or 2 = coating),  porosity, mass fraction, Vmax (for DHS)
   Draine_Si_sUV.dat  1.0  Optical indices file, volume fraction
   1	                      Heating method : 1 = RE + LTE, 2 = RE + NLTE, 3 = NRE
-  0.010571265308202338  10.233505510396354 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
+  0.011103868912560936  11.178070491364391 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
 
   1  Number of species
   Mie  1 2  0.0  1.0  0.9 Grain type (Mie or DHS), N_components, mixing rule (1 = EMT or 2 = coating),  porosity, mass fraction, Vmax (for DHS)
   Draine_Si_sUV.dat  1.0  Optical indices file, volume fraction
   1	                      Heating method : 1 = RE + LTE, 2 = RE + NLTE, 3 = NRE
-  0.011578193855956848  1051.2069932558645 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
+  0.01004269039560129  1080.8071482659948 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
 
   1  Number of species
   Mie  1 2  0.0  1.0  0.9 Grain type (Mie or DHS), N_components, mixing rule (1 = EMT or 2 = coating),  porosity, mass fraction, Vmax (for DHS)
   Draine_Si_sUV.dat  1.0  Optical indices file, volume fraction
   1	                      Heating method : 1 = RE + LTE, 2 = RE + NLTE, 3 = NRE
-  0.011578193855956848  1051.2069932558645 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
+  0.01004269039560129  1080.8071482659948 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
 
   1  Number of species
   Mie  1 2  0.0  1.0  0.9 Grain type (Mie or DHS), N_components, mixing rule (1 = EMT or 2 = coating),  porosity, mass fraction, Vmax (for DHS)
   Draine_Si_sUV.dat  1.0  Optical indices file, volume fraction
   1	                      Heating method : 1 = RE + LTE, 2 = RE + NLTE, 3 = NRE
-  0.011578193855956848  1051.2069932558645 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
+  0.01004269039560129  1080.8071482659948 3.5 100 	  amin, amax [mum], aexp, n_grains (log distribution)
 
 #Molecular RT settings
   T T T 15.	              lpop, laccurate_pop, LTE, profile width (km.s^-1)
